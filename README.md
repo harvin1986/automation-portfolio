@@ -7,6 +7,7 @@ Production-minded automation and AI-integration projects by Ryan, a senior autom
 | Project | Stack | What it shows |
 |---|---|---|
 | [**Customer Reconciliation Engine**](customer-reconciliation-engine/) | n8n, Claude API, Node.js | Reconciles customer records across a CRM and billing system: deterministic + fuzzy matching, AI used only to advise on ambiguous pairs behind rule gates, per-field ownership, idempotent writes, dry-run default, blast-radius guard, self-healing retries, human review loop, stateful-fake simulation tests |
+| [**Local Agent Workbench**](local-agent-workbench/) | Node.js, PostgreSQL, Claude API | Self-hosted task runner: Markdown-defined tasks, sandboxed tools, human approval queue bound to input hashes, exactly-once scheduler, hash-chained audit log, resumable runs, localhost console; 37 tests against real Postgres (scripted model) |
 | [**Support Triage Agent**](support-triage-agent/) | n8n, Claude API, Node.js | Signed-webhook ticket triage: HMAC auth with replay protection, PII redaction before the LLM, a policy engine that limits what the AI may do alone, signed single-use approval links, LLM circuit breaker, SLA tracking, daily digest, workflow simulator tests |
 | [**Document Intake Agent**](document-intake-agent/) | n8n, Claude API, Node.js, Google Sheets | An invoice-processing pipeline that uses an LLM without trusting it: schema-forced extraction, deterministic validation, idempotency, human review queue, dead-letter handling, prompt-injection defenses, audit log |
 

@@ -1,0 +1,13 @@
+{
+  "name": "local-agent-workbench",
+  "version": "1.0.0",
+  "description": "A local, Postgres-backed AI agent runner: scheduled tasks, permissioned tools, human approval for anything that changes something, and a tamper-evident audit log",
+  "bin": { "workbench": "bin/workbench.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node bin/workbench.js start",
+    "migrate": "node bin/workbench.js migrate",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "dependencies": { "pg": "^8.13.0" }
+}
