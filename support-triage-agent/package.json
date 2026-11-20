@@ -1,0 +1,9 @@
+{
+  "name": "support-triage-agent",
+  "version": "1.0.0",
+  "description": "n8n workflow: signed-webhook support ticket triage with PII redaction, policy engine, human approval, circuit breaker, and SLA digest",
+  "scripts": {
+    "build": "node scripts/build-workflow.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

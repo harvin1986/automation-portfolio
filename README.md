@@ -6,6 +6,7 @@ Production-minded automation and AI-integration projects by Ryan, a senior autom
 
 | Project | Stack | What it shows |
 |---|---|---|
+| [**Support Triage Agent**](support-triage-agent/) | n8n, Claude API, Node.js | Signed-webhook ticket triage: HMAC auth with replay protection, PII redaction before the LLM, a policy engine that limits what the AI may do alone, signed single-use approval links, LLM circuit breaker, SLA tracking, daily digest, workflow simulator tests |
 | [**Document Intake Agent**](document-intake-agent/) | n8n, Claude API, Node.js, Google Sheets | An invoice-processing pipeline that uses an LLM without trusting it: schema-forced extraction, deterministic validation, idempotency, human review queue, dead-letter handling, prompt-injection defenses, audit log |
 
 ## How I build automations
