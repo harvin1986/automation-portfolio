@@ -1,0 +1,10 @@
+{
+  "name": "document-intake-agent",
+  "version": "1.0.0",
+  "description": "n8n workflow: AI document intake with validation, human review queue, idempotency, and dead-letter handling",
+  "scripts": {
+    "build": "node scripts/build-workflow.js",
+    "samples": "python3 scripts/make_samples.py",
+    "test": "node --test tests/validate.test.js"
+  }
+}
