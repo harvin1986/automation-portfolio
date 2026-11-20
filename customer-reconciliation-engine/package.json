@@ -1,0 +1,9 @@
+{
+  "name": "customer-reconciliation-engine",
+  "version": "1.0.0",
+  "description": "n8n workflow: reconcile customer records between a CRM and a billing system with deterministic + fuzzy + AI-assisted matching, per-field ownership, idempotent writes, and safety guards",
+  "scripts": {
+    "build": "node scripts/build-workflow.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
