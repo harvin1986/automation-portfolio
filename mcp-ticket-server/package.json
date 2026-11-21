@@ -1,0 +1,23 @@
+{
+  "name": "mcp-ticket-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server that gives Claude safe access to a ticketing system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node bin/mcp-ticket-server.js",
+    "test": "node --test --test-force-exit tests/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "bin": {
+    "mcp-ticket-server": "bin/mcp-ticket-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
